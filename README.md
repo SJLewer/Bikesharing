@@ -1,7 +1,7 @@
 # Bikesharing
 ## Project Overview
 
-_Basis of analysis_:  August 2019 New York City Citibike trip data
+_Data set for analysis_:  August 2019 New York City Citibike trip data
 
 ## Results
 include each visualization with a description under each image
@@ -11,7 +11,7 @@ high-level summary of the results and two additioal visualizations you would per
 ___
 
 _Applications_:
-* Python & Pandas
+* Python with Pandas
 * Tableau Public
 
 _Analyst_: S. Lewer
