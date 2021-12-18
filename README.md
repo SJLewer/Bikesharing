@@ -4,6 +4,8 @@
 _Data set for analysis_:  August 2019 New York City Citibike trip data
 
 ## Results
+Link to Tableau Public site: https://public.tableau.com/app/profile/sara.lewer
+
 include each visualization with a description under each image
 
 ## Summary
