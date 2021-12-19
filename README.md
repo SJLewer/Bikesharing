@@ -1,7 +1,8 @@
 # Bikesharing
 ## Project Overview
 
-_Data set for analysis_:  August 2019 New York City Citibike trip data
+_Data set for analysis_:  August 2019 New York City Citibike trip data https://www.citibikenyc.com/system-data
+
 
 ## Results
 Link to Tableau Public site: https://public.tableau.com/app/profile/sara.lewer
