@@ -3,8 +3,7 @@
 Citi Bike in New York City is the largest bike-sharing program in the nation and has been very successful.  Could Citi Bike's success be replicated in Des Moines, IA?  This project will begin the feasiblity analysis by learning about Citi Bike customers.
 
 ### Data Preparation
-The dataset is August 2019 New York City Citibike trip data available on-line at: https://www.citibikenyc.com/system-data
-The datatype for two fields needs to be changed:  tripduration from an integer to datetime and gender from an integer to a string.  To retain the original data, two new fields ("triptime" and "genderstr") were created for the revised datatypes.
+The dataset for this analysis is August 2019 New York City Citibike trip data available on-line at: https://www.citibikenyc.com/system-data.  The datatype for two fields needs to be changed:  tripduration from an integer to datetime and gender from an integer to a string.  To retain the original data, two new fields ("triptime" and "genderstr") were created for the revised datatypes.
 
 ![bike_df_orig](https://user-images.githubusercontent.com/90986041/147122161-2a0377a4-4f86-43e2-a453-40e912c2076e.png)
 ![bike_df_update](https://user-images.githubusercontent.com/90986041/147122177-b19cfa99-53eb-4437-9777-3af8cbdf51bc.png)
@@ -43,7 +42,7 @@ The Aug 2019 dataset can be used to answer questions about the bikes:
 
 1. _How many bikes are at each station?_ Use count of bikeid, start station id, start station longitude, and start station latitude.  Plot station ids on a map with markers sized by the number of bikes.
 
-Additional data gathering will be needed to answer questions related to: 
+Additional data gathering will be needed to answer other questions such as: 
 * Most of Citi Bike's customers appear to be commuting in the heart of downtown NYC during business commute times.  Is downtown Des Moines bike-friendly?  
 * How many bike rentals are needed to financially break even?  
 ___
