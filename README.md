@@ -34,9 +34,20 @@ The datatype for two fields needs to be changed:  tripduration from an integer t
 Link to Tableau Public site: https://public.tableau.com/app/profile/sara.lewer/viz/NYCCitibikeAnalysis_16398338949320/BikeSharing
 
 ## Summary
-Des Moines' population's average age is 34 years old is within the range of the most common age of Citi Bike customers.  This is encouraging and supports continued analysis to answer more questions.  Most of Citi Bike's customers appear to be commuting in the heart of downtown during business commute times.  Is downtown Des Moines bike-friendly?   How many bike rentals high-level summary of the results and two additioal visualizations you would perform with the given dataset
-___
+Des Moines' population average age (34 years) is within the range of the most common age of Citi Bike customers.  This is encouraging and supports continued analysis to answer more questions.  
 
+The Aug 2019 dataset can be used to answer questions about the bikes:
+1. _Are bike rentals one-way or roundtrip?_  Use the bikeid, start station id, end station id, along with a new calculated field to determine "one-way" (start and end station id not equal) and "round-trip (start and end station ids are the same).  Plot in a pie chart.
+
+1. _How many bikes are in Citi Bike's fleet?_ Use the count of bikeids for a text report
+
+1. _How many bikes are at each station?_ Use count of bikeid, start station id, start station longitude, and start station latitude.  Plot station ids on a map with markers sized by the number of bikes.
+
+Additional data gathering will be needed to answer questions related to: 
+* Most of Citi Bike's customers appear to be commuting in the heart of downtown NYC during business commute times.  Is downtown Des Moines bike-friendly?  
+* How many bike rentals are needed to financially break even?  
+___
+## Resources:
 _Dataset for analysis_:  August 2019 New York City Citibike trip data https://www.citibikenyc.com/system-data
 
 _Applications_:
